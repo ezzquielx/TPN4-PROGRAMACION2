@@ -1,0 +1,17 @@
+// Informe de comparación de métodos de ordenamiento:
+//
+// Tamaño: 150 elementos
+// - Bubble Sort: ~0 ms
+// - Arrays.sort(): ~0 ms
+//
+// Tamaño: 1500 elementos
+// - Bubble Sort: ~6 ms
+// - Arrays.sort(): ~0 ms
+//
+// Tamaño: 15000 elementos
+// - Bubble Sort: ~87 ms
+// - Arrays.sort(): ~0 ms
+//
+// Conclusión:
+// - Bubble Sort es significativamente más lento para arreglos grandes debido a su complejidad O(n²).
+// - Arrays.sort() es mucho más eficiente, usando un algoritmo híbrido optimizado (Timsort) que funciona bien en datos reales.
